@@ -8,7 +8,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from intent_parser import extract_trip_intent
 from pathlib import Path
 from dotenv import load_dotenv
-from assistant_api import router as assistant_router
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
 
