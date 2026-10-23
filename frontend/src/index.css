@@ -1,0 +1,21 @@
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #202c26;
+  background: #f5f7f4;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}

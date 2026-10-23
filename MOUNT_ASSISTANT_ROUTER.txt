@@ -1,0 +1,8 @@
+# In your existing backend/main.py, keep all existing routes and middleware.
+# Since main.py loads .env at startup, add these lines immediately AFTER load_dotenv(...)
+# and BEFORE the app starts serving requests:
+
+from assistant_api import router as assistant_router
+app.include_router(assistant_router)
+
+# Do not replace main.py with a new/minimal FastAPI app.

@@ -1,0 +1,34 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+
+# Local database
+backend/tripwise.db
+
+# Frontend dependencies and build output
+node_modules/
+**/node_modules/
+frontend/dist/
+
+# Debug and scraped artifacts
+flight_api_response.json
+flight_debug.png
+google_page.html
+backend/flight_api_response.json
+backend/flight_debug.png
+
+# Temporary integration artifacts
+/python

@@ -1,0 +1,10 @@
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/*.py[cod]
+backend/tripwise.db
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
